@@ -1,0 +1,102 @@
+@media only screen and  (max-width:768px) {
+    .header{
+        width: 100%;
+        height: 100%;
+    }
+    .nav__logo{
+        margin-top: 20px;
+    }
+    .navbar__nav a{
+        display: none;
+    }
+    .navbar__nav .fa-magnifying-glass{
+        display: none;
+    }
+    .fa-bars{
+        background-color: black;
+        padding: 10px 10px;
+        border: 2px solid rgb(220, 164, 61); 
+    }
+    .banner .item{
+        width: 380px;
+        margin: 0 auto;
+        margin-left: 20px;
+        margin-top: 30px;
+    }
+    .banner h1{
+        font-size: 2rem;
+    }
+    .banner h2{
+        font-size: 2.6rem;
+    }
+    .banner p{
+        font-size: 10px;
+      margin-top: 10px;
+    }
+    .banner button{
+        padding: 6px 10px;
+        font-size: 1rem;
+    }
+    .about__contact{
+        grid-template-columns: 1fr;
+    }
+    .concerts__contact{
+        grid-template-columns: 1fr;
+    }
+   .gallery{
+    margin-top: 150vh;
+    height: 170vh;
+   }
+.gallarey__contact{
+    grid-template-columns: 1fr;
+}
+.gallarey__contact button{
+    margin-left: 320px;
+}
+.titil{
+   padding-top: 100px;
+}
+.fouter__contact button{
+    margin-left: 100px;
+}
+.titil h2{
+    margin-left: 20px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.msg{
+    background-color: white;
+}
+.input{
+    width: 50%;
+
+}
+.input input{
+    width: 60%;
+    height: 10vh;
+    margin-left: 20px;
+}
+.input button{
+    width: 20%;
+    height: 10vh;
+}
+.fouter__titil .row{
+  margin-top: 10vh;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  font-size: 1.1rem;
+}
+.row i{
+    font-size: 4rem;
+margin-top: 30px;
+}
+.fouter__titil b{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.fouter__titil .fa-facebook{
+    margin-left: 100px;
+
+}
+}
